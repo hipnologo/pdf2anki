@@ -1,6 +1,6 @@
 # pdf2anki
 
-`pdf2anki` is a Python application that enables you to generate Anki flashcards questions from PDF files utilizing the power of OpenAI.
+`pdf2anki` is a Python application that enables you to generate Anki flashcards questions from PDF files utilizing the power of OpenAI ChatGPT.
 
 ## Prerequisites
 
