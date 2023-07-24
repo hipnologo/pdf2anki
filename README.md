@@ -26,7 +26,7 @@ pdf2anki --source-dir SOURCE_DIR --output-dir OUTPUT_DIR --model MODEL --tempera
 For example:
 
 ```bash
-pdf2anki --source-dir ./pdfs --output-dir ./anki-cards --model gpt-3.5-turbo --temperature 0.5 --max-tokens 1000
+pdf2anki --source-dir ./pdfs --output-dir ./anki-cards --model gpt-4 --temperature 0.5 --max-tokens 1000
 ```
 
 ## For Developers
@@ -41,7 +41,7 @@ source_dir = "path/to/pdf_folder"
 output_dir = "path/to/output_folder"
 
 #### Define the parameters for the OpenAI model
-model = "gpt-3.5-turbo"
+model = "gpt-4"
 temperature = 0.5
 max_tokens = 1000
 

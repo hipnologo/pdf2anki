@@ -1,4 +1,5 @@
 import os
+import sys
 import argparse
 import PyPDF2
 import openai
@@ -134,7 +135,7 @@ def main():
     parser = argparse.ArgumentParser(description='Generate Anki flashcards from PDFs')
     parser.add_argument('--source-dir', type=str, required=True, help='Directory containing source PDFs')
     parser.add_argument('--output-dir', type=str, required=True, help='Directory for output files')
-    parser.add_argument('--model', type=str, required=False, default='gpt-3.5-turbo', help='The OpenAI model to use for generation')
+    parser.add_argument('--model', type=str, required=False, default='gpt-4', help='The OpenAI model to use for generation')
     parser.add_argument('--temperature', type=float, required=False, default='0.3', help='The OpenAI temperature setting')
     parser.add_argument('--max-tokens', type=int, required=False, default='2048', help='The maximum number of tokens for the OpenAI model')
     parser.add_argument('--api-key', type=str, required=False, help='The OpenAI API key')
