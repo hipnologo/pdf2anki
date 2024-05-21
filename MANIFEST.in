@@ -1,0 +1,2 @@
+include pdf2anki/classifier.joblib
+include pdf2anki/vectorizer.joblib

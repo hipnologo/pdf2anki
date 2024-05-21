@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pdf2anki',
-    version='0.1.2',
+    version='0.1.3',
     description='A Python package to create Anki cards from PDFs using OpenAI.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -10,6 +10,7 @@ setup(
     author_email='hipnologo@gmail.com',
     url='https://github.com/hipnologo/pdf2anki',
     packages=find_packages(exclude=['pdftoanki']),
+    include_package_data=True,
     install_requires=[
         'openai>=0.27.0',
         'PyPDF2>=1.26.0',
