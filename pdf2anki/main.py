@@ -1,3 +1,6 @@
+# File: main.py
+# PDF2Anki: A Python library for generating AI-generated Anki flashcards from PDFs
+# Author: Fabio Carvalho
 import os
 import sys
 import argparse

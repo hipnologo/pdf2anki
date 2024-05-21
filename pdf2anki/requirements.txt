@@ -1,0 +1,6 @@
+PyPDF2
+openai
+joblib
+typing
+langchain
+scikit-learn
